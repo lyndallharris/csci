@@ -1,3 +1,26 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+main{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.card {
+    display: grid;
+    grid-template-columns: 65% 40%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    border: 3px solid lightgray;
+    padding: 20px;
+}
+p {
+    color: gray;
+}
+span {
+    color: gray;
+}
