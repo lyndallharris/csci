@@ -1,21 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
-
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     box-sizing: border-box;
 }
-
-body {
-    margin: 0px;
-    font-family: 'Climate Crisis', cursive;
+header {
+    display: flex;
+    justify-content: center;
+   align-items: center;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{ 
+    background-color: lightgrey;
+}
+/*
+.grid { 
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin: 40px;
+    border: 10px solid lavenderblush;
+    padding: 10px;
+    align-content: center;
+    width: 50rem;
+}
+*/
 
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
-}
-h2 {
-    color: gray;
-    font-family: 'Climate Crisis', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #565656;
 }
 
+h2 {
+    color: #565656;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+i {
+    color: #565656;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: lavenderblush;
+    background-color: palevioletred;
+    padding: 1rem;
+    border: 10px solid lavenderblush
+}
+
+#tutorials { 
+    border: 10px solid lavenderblush;
+    padding: 10px;
+    margin: 10px;
+}
+#homework {
+    border: 10px solid lavenderblush;
+    padding: 10px;
+    margin: 10px;
+}
+#inspiration {
+    border: 10px solid lavenderblush;
+    padding: 10px;
+    margin: 10px;
+}
+#class {
+    border: 10px solid lavenderblush;
+    padding: 10px;
+    margin: 10px;
+}
