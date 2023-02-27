@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Climate Crisis', cursive;
 }
 
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
+h2 {
+    color: gray;
+    font-family: 'Climate Crisis', cursive;
+}
+
