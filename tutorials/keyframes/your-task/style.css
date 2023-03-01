@@ -62,10 +62,11 @@ main {
     animation-direction: alternate;
     animation-name: moveCloudHorizontally;
     animation-delay: 1s;
-    animation-duration: 18s; */
+    animation-duration: 18s; 
 
     transform: translate(-30vw, 0);
 }
+
 @keyframes moveCloudHorizontally {
     0% { 
         transform: translate(-30vw, 0);
@@ -81,8 +82,7 @@ main {
     left: 10vw;
     font-size: 200px;
     
-    /* Start by positioning the cloud to the left by 30vw */
-    /* transform: translate(-30vw, 0); */
+   
 
 
     animation-timing-function: linear;
