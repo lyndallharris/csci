@@ -84,6 +84,12 @@ h1 {
     margin: 10px;
 }
 
+@keyframes heartbeat { 
+    15% { 
+        transform: scale(1.2)
+    }
+}
+
 @media (max-width: 1020px) {
 }
 
